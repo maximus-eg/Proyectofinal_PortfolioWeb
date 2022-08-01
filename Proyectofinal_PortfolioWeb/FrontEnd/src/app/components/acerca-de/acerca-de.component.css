@@ -1,0 +1,24 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color: burlywood;
+    text-align: center;
+}
+
+/*estilo de la foto de perfil*/
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        left: 1%;
+        margin-top: -100px;
+        width: 15%;
+        border-style:double;
+        box-shadow: 3px 3px 3px grey;
+    }
+}
+/*mi nombre que aparece al lado de la foto*/
+#nombre{
+    font-weight: bold;
+    margin-top: 10%;
+}
